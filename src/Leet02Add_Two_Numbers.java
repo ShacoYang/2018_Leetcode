@@ -18,7 +18,7 @@ public class Leet02Add_Two_Numbers {
         if (l1 == null && l2 == null) {
             return null;
         }
-        // don't change l1, l2 
+        // don't change l1, l2
         ListNode dummyNode = new ListNode(0);
         ListNode p = l1;
         ListNode q = l2;
